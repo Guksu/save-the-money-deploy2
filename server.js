@@ -9,10 +9,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  user: "admin",
-  host: "database-1.cjn0ra3hldbu.ap-northeast-2.rds.amazonaws.com",
-  password: "process.env.PASSWORD",
-  database: "savethemoney",
+  host: "us-cdbr-east-04.cleardb.com",
+  user: "bca87f451326e3",
+  password: "28d001de",
+  database: "heroku_42fdad4f6c5478b",
   dateStrings: "data",
 });
 // 회원가입 //
