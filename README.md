@@ -1,1 +1,1 @@
-# save-the-money-deploy2
+# 배포용 저장소
